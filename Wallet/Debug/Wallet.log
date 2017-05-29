@@ -1,0 +1,59 @@
+﻿  Wallet.cpp
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(47): error C3867: 'std::vector<Bloc,std::allocator<_Ty>>::size': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Ty=Bloc
+          ]
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(47): error C2446: '<': no conversion from 'unsigned int (__thiscall std::vector<Bloc,std::allocator<_Ty>>::* )(void) noexcept const' to 'int'
+          with
+          [
+              _Ty=Bloc
+          ]
+  c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(47): note: There is no context in which this conversion is possible
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(87): error C3867: 'std::vector<Bloc,std::allocator<_Ty>>::size': non-standard syntax; use '&' to create a pointer to member
+          with
+          [
+              _Ty=Bloc
+          ]
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(87): error C2446: '<': no conversion from 'unsigned int (__thiscall std::vector<Bloc,std::allocator<_Ty>>::* )(void) noexcept const' to 'int'
+          with
+          [
+              _Ty=Bloc
+          ]
+  c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(87): note: There is no context in which this conversion is possible
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(125): error C2679: binary '[': no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\vector(1749): note: could be 'const Bloc &std::vector<Bloc,std::allocator<_Ty>>::operator [](const unsigned int) const'
+          with
+          [
+              _Ty=Bloc
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\vector(1735): note: or       'Bloc &std::vector<Bloc,std::allocator<_Ty>>::operator [](const unsigned int)'
+          with
+          [
+              _Ty=Bloc
+          ]
+  c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(125): note: while trying to match the argument list '(std::vector<Bloc,std::allocator<_Ty>>, overloaded-function)'
+          with
+          [
+              _Ty=Bloc
+          ]
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(125): error C2228: left of '.hash' must have class/struct/union
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(125): error C2660: 'Mineur::creerBloc': function does not take 1 arguments
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(164): error C2679: binary '[': no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\vector(1749): note: could be 'const Bloc &std::vector<Bloc,std::allocator<_Ty>>::operator [](const unsigned int) const'
+          with
+          [
+              _Ty=Bloc
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\vector(1735): note: or       'Bloc &std::vector<Bloc,std::allocator<_Ty>>::operator [](const unsigned int)'
+          with
+          [
+              _Ty=Bloc
+          ]
+  c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(164): note: while trying to match the argument list '(std::vector<Bloc,std::allocator<_Ty>>, overloaded-function)'
+          with
+          [
+              _Ty=Bloc
+          ]
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(164): error C2228: left of '.hash' must have class/struct/union
+c:\users\tahar brouri\desktop\programmation_par_composants\wallet\wallet\wallet.cpp(164): error C2660: 'Mineur::creerBloc': function does not take 1 arguments
